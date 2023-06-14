@@ -14,6 +14,6 @@ app.use(morgan("dev"));
 
 app.use(require("./routers/router"))
 
-app.listen(port, () => {
+app.listen(4000, () => {
     console.log('Servidor activo');
 })
